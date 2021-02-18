@@ -3,13 +3,13 @@ import Convert from '@/components/Convert.vue'
 import Bag from '@/components/Bag.vue'
 const routes = [
   {
-    path: '/',
+    path: '/crypto-dist.github.io',
     name: 'Convert',
     component: Convert,
     props:true
   },
   {
-    path: '/bag',
+    path: '/crypto-dist.github.io/bag',
     name:'Bag',
     component: Bag,
     props:true

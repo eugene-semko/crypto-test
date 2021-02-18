@@ -9,7 +9,7 @@
         </router-link>
         <router-link 
           class="button2"
-          to="/bag"
+          to="/crypto-dist.github.io/bag"
           v-bind:class="{clicked: !isclicked}"
         >
           <p @click="isclicked = !isclicked">Bag</p>
